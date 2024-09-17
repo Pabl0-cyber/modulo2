@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário1</title>
+</head>
+<body>
+    <h1>Formulário de cadastro</h1>
+    <form>
+        <label for="user">Nome:</label>
+        <input id="user" type="text" placeholder="nome completo" />
+        <br />
+        <br />
+        <label id="e-mail">Email:</label>
+        <input type="email" type="email" placeholder="ex: seuemail@gmail.com"/>
+        <br />
+        <br />
+        <label for="senha">Senha:</label>
+        <input id="senha" type="password" placeholder="123456"/>
+        <br />
+        <br />
+        <button type="submit">
+            cadastrar
+        </button>
+
+    </form>
+    
+</body>
+</html>
